@@ -1,1 +1,65 @@
-assets folder
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GramBangla Systems Ltd - ISP</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{line-height:1.6;color:#333}
+header{background:#0066cc;color:#fff;padding:15px 50px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:bold}
+nav ul{display:flex;list-style:none}
+nav ul li{margin-left:20px}
+nav ul li a{color:white;text-decoration:none;font-weight:bold}
+.hero{background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('https://images.unsplash.com/photo-1520869562399-e772f042f422?w=1600');background-size:cover;background-position:center;color:white;text-align:center;padding:120px 20px}
+.hero h1{font-size:50px;margin-bottom:20px}
+.hero p{font-size:22px;margin-bottom:25px}
+.btn{display:inline-block;background:#ff9900;color:white;padding:12px 25px;text-decoration:none;border-radius:5px;margin:5px}
+section{padding:60px 10%}
+.section-title{text-align:center;margin-bottom:40px;color:#0066cc}
+.services,.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#f5f5f5;padding:25px;border-radius:10px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.packages table{width:100%;border-collapse:collapse}
+.packages th,.packages td{border:1px solid #ddd;padding:12px;text-align:center}
+.packages th{background:#0066cc;color:white}
+.contact{background:#0066cc;color:white;text-align:center}
+footer{background:#222;color:white;text-align:center;padding:20px}
+@media(max-width:768px){header{flex-direction:column}.hero h1{font-size:35px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">GramBangla Systems Ltd</div>
+<nav><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#packages">Packages</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+</header>
+<section class="hero" id="home">
+<h1>Fast & Reliable Internet</h1>
+<p>বাংলাদেশের বিশ্বস্ত Broadband Internet Service Provider</p>
+<a href="#packages" class="btn">View Packages</a>
+<a href="#contact" class="btn">Contact Us</a>
+</section>
+<section id="about"><h2 class="section-title">About Us</h2><p>GramBangla Systems Ltd একটি বিশ্বস্ত ISP প্রতিষ্ঠান।</p></section>
+<section id="services"><h2 class="section-title">Our Services</h2>
+<div class="services">
+<div class="card"><h3>Home Internet</h3></div>
+<div class="card"><h3>Corporate Internet</h3></div>
+<div class="card"><h3>Network Solutions</h3></div>
+<div class="card"><h3>CCTV Solutions</h3></div>
+</div></section>
+<section id="packages" class="packages">
+<h2 class="section-title">Internet Packages</h2>
+<table>
+<tr><th>Package</th><th>Speed</th><th>Price</th></tr>
+<tr><td>Basic</td><td>20 Mbps</td><td>৳500</td></tr>
+<tr><td>Standard</td><td>40 Mbps</td><td>৳800</td></tr>
+<tr><td>Premium</td><td>80 Mbps</td><td>৳1200</td></tr>
+</table>
+</section>
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>info@gbsl.com.bd</p>
+</section>
+<footer>© 2026 GramBangla Systems Ltd</footer>
+</body>
+</html>
